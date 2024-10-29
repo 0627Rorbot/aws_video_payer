@@ -1,0 +1,24 @@
+body {
+  background-color: #0A1A33;
+  color: white;
+  text-align: center;
+}
+
+#video-container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+#video-player {
+  width: 100%;
+  height: auto;
+}
+
+#live-button {
+  background-color: rgb(14, 112, 245);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin-top: 10px;
+}

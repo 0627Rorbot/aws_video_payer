@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Video Player</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div id="video-container">
+        <video id="video-player" controls>
+            <source id="video-source" src="" type="video/mp4">
+            <track id="subtitle-track" kind="subtitles" src="" srclang="en" label="English">
+            Your browser does not support the video tag.
+        </video>
+        <button id="live-button" onclick="goLive()">Go Live</button>
+    </div>
+    <script src="/static/script.js"></script>
+</body>
+</html>
